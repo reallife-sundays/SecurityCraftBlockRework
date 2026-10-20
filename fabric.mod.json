@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "scopenbreak",
+  "version": "${version}",
+  "name": "ScopenBreak",
+  "description": "Lets non-owners slowly mine SecurityCraft reinforced blocks, with mining time scaled by reinforcement tier.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.scopenbreak.ScopenBreak"]
+  },
+  "mixins": ["scopenbreak.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "securitycraft": "*"
+  }
+}
